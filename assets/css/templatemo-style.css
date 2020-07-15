@@ -363,6 +363,7 @@ button:hover {
 
 /* Left & Right Post */
 
+.left-con-image-post,
 .right-image-post {
     margin-top: 60px;
     padding-top: 60px;
@@ -374,16 +375,19 @@ button:hover {
     border-radius: 5px;
 }
 
+.left-con-image-post h4,
 .right-image-post h4,
 .left-image-post h4 {
     margin-top: 30px;
 }
 
+.left-con-image-post p, 
 .right-image-post p,
 .left-image-post p {
     margin-top: 20px;
 }
 
+.left-con-image-post .white-button,
 .right-image-post .white-button,
 .left-image-post .white-button {
     margin-top: 30px;
@@ -711,16 +715,19 @@ section.contact-me {
         left: 0%;
     }
 
+    .left-con-image-post h4,
     .right-image-post h4,
     .left-image-post h4 {
         margin-top: 0px;
     }
 
+    .left-con-image-post p,
     .right-image-post p,
     .left-image-post p {
         margin-top: 15px;
     }
 
+    .left-con-image-post .white-button,
     .right-image-post .white-button,
     .left-image-post .white-button {
         margin-top: 25px;
@@ -795,6 +802,8 @@ section.contact-me {
         width: 94%;
         margin: 3%;
     }
+
+    .left-con-image-post img,
     .left-image-post img {
         margin-bottom: 30px;
     }
